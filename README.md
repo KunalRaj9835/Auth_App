@@ -116,7 +116,7 @@ The app uses **Supabase** as an optional backend for profile persistence across 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 simple-test/
@@ -238,7 +238,7 @@ simple-test/
 
 ---
 
-## 🏃 Running the App
+##  Running the App
 
 ### Start Development Server
 ```bash
@@ -653,7 +653,7 @@ export const registrationSchema = Yup.object().shape({
 
 ---
 
-## ⚖️ Trade-offs & Design Decisions
+##  Trade-offs & Design Decisions
 
 ### 1. **Supabase vs. Pure Local Storage**
 
