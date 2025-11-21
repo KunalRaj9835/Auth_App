@@ -6,7 +6,7 @@ A secure, production-ready React Native authentication application built with Ty
 
 **Expo Go**: Scan the QR code when running `npm start` to test on your device via Expo Go app
 
-**APK Download**: Coming soon - Android APK build will be available for testing
+**APK Download**: https://expo.dev/artifacts/eas/fS3G5tUMtgr5xVTwoy1RQY.apk - Android APK build now be available for testing
 
 **Note**: For the best experience, use Expo Go on a physical device as some features (like biometric authentication and SecureStore) have limited functionality in simulators.
 
@@ -223,10 +223,10 @@ simple-test/
      USING (true);
    ```
 
-   c. Copy your Supabase credentials to `.env`:
-   ```env
-   EXPO_PUBLIC_SUPABASE_URL="your-project-url"
-   EXPO_PUBLIC_SUPABASE_ANON_KEY="your-anon-key"
+   c. Copy your Supabase credentials to `app.json`:
+   ```app.json
+   "supabaseUrl": "your-project-url",
+   "supabaseAnonKey": "your-anon-key",
    ```
 
 4. **Verify installation**
